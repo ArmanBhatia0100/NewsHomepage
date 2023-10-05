@@ -1,9 +1,7 @@
-// Css Reset
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -92,6 +90,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -106,17 +105,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -124,16 +127,16 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-// Code start
-
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -144,64 +147,57 @@ body {
   .wrapper {
     padding: 1rem;
   }
-
-  header {
-    .navbar {
-      margin: 1rem 0;
-    }
-    .banner {
-      img {
-        max-width: 343px;
-        width: 100%;
-        height: 300px;
-      }
-    }
+  header .navbar {
+    margin: 1rem 0;
   }
-  main {
-    .sec-1 {
-      margin: 1rem 0;
-      margin-bottom: 2rem;
-      h1 {
-        font-size: 1.5rem;
-        font-weight: 600;
-      }
-      p {
-        margin: 1rem 0;
-        color: #5e607a;
-        font-size: 1rem;
-        font-weight: 400;
-      }
-      button {
-        max-width: 185px;
-        background: #f15d51;
-        color: #fffdfa;
-        border: none;
-        outline: none;
-        padding: 0.6rem;
-        cursor: pointer;
-      }
-    }
-    .sec-2 {
-      background-color: #00001a;
-      border: 1px solid #979797;
-      padding: 1rem;
-      h1 {
-        font-size: 1.5rem;
-        color: #e9aa52;
-      }
-      div {
-        margin: 0.5rem 0;
-        padding: 0.5rem 0;
-        h3 {
-          font-size: 1.2rem;
-          color: #fffdfa;
-          margin: 0.3rem 0;
-        }
-        p {
-          font-size: 0.8rem;
-          color: #c5c6ce;
-        }
-      }
-    }
+  header .banner img {
+    max-width: 343px;
+    width: 100%;
+    height: 300px;
   }
-}
+  main .sec-1 {
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+  }
+  main .sec-1 h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  main .sec-1 p {
+    margin: 1rem 0;
+    color: #5e607a;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  main .sec-1 button {
+    max-width: 185px;
+    background: #f15d51;
+    color: #fffdfa;
+    border: none;
+    outline: none;
+    padding: 0.6rem;
+    cursor: pointer;
+  }
+  main .sec-2 {
+    background-color: #00001a;
+    border: 1px solid #979797;
+    padding: 1rem;
+  }
+  main .sec-2 h1 {
+    font-size: 1.5rem;
+    color: #e9aa52;
+  }
+  main .sec-2 div {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+  }
+  main .sec-2 div h3 {
+    font-size: 1.2rem;
+    color: #fffdfa;
+    margin: 0.3rem 0;
+  }
+  main .sec-2 div p {
+    font-size: 0.8rem;
+    color: #c5c6ce;
+  }
+}/*# sourceMappingURL=style.css.map */
