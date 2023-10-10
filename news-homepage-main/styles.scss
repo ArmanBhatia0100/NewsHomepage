@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+span,
+applet,
+object,
+iframe,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Code start
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 375px) {
+  .wrapper {
+    padding: 1rem;
+  }
+
+  header {
+    .navbar {
+      margin: 1rem 0;
+    }
+    .banner {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+    }
+  }
+  main {
+    .sec-1 {
+      margin: 1rem 0;
+      margin-bottom: 2rem;
+      h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      p {
+        margin: 1rem 0;
+        color: #5e607a;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      button {
+        max-width: 185px;
+        background: #f15d51;
+        color: #fffdfa;
+        border: none;
+        outline: none;
+        padding: 0.6rem;
+        cursor: pointer;
+      }
+    }
+    .sec-2 {
+      margin-bottom: 2rem;
+      background-color: #00001a;
+      border: 1px solid #979797;
+      padding: 1rem;
+      h1 {
+        font-size: 1.5rem;
+        color: #e9aa52;
+      }
+      div {
+        margin: 0.5rem 0;
+        padding: 0.5rem 0;
+        h3 {
+          font-size: 1.2rem;
+          color: #fffdfa;
+          margin: 0.3rem 0;
+        }
+        p {
+          font-size: 0.8rem;
+          color: #c5c6ce;
+        }
+      }
+    }
+    .sec-3 {
+      margin: 1rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 1.2rem 0;
+        img {
+          width: 130px;
+          height: 157px;
+          margin-right: 0.5rem;
+          object-fit: contain;
+        }
+        .content_container {
+          * {
+            margin: 0;
+          }
+          padding: 0.5rem 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .cardNumber {
+            font-size: 1.35rem;
+            color: #c5c6ce;
+            margin-top: 0;
+          }
+          h3 {
+            font-family: "Inter", sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+          }
+          p {
+            color: #5e607a;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+<<<<<<< HEAD:news-homepage-main/style.scss
+@media screen and (min-width: 700px) {
+=======
+@media screen and (min-width: 750px) {
+  
+>>>>>>> main:news-homepage-main/styles.scss
+}
